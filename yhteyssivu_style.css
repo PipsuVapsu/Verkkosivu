@@ -1,0 +1,87 @@
+.banneri {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(228, 210, 254);
+    outline: 2px;
+    outline-color: black;
+    outline-style: solid;
+}
+h1 {
+    font-size: 24;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    position:relative;
+    top: 40px;
+    left: -300px;
+
+             
+}
+h2 {
+    font-size: 28;
+    font-weight: bold;
+    font-family: Consolas;
+    text-align: center;
+    position: relative;
+    top:-15px;
+    
+    
+}
+h3 {
+    font-size: 28;
+    font-weight: bold;
+    font-family: Consolas;
+    text-align: center;
+    position: relative;
+    top: -75px;
+    left: 330px;
+}
+p {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    text-align: center;
+}
+h4 {
+    font-size: 20;
+    font-weight: bold;
+    font-family: Aptos;
+    text-align: center;
+}
+h5 {
+    font-size: 30;
+    font-weight: bold;
+    font-family: Aptos;
+    text-align: center;
+}
+form {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    text-align: center;
+    
+}
+input[type=text] {
+    height: 200;
+    text-align: left;
+    padding: 10px 5px 220px 5px;
+    font-size: 14;
+}
+input[type=submit] {
+    height: 30;
+}
+.kuva {
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 100%;
+    image-resolution: 200x450;
+    padding: 0px -100px;
+}
+.logo {
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: -100px;
+    left: -445px;
+}
