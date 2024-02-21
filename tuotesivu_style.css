@@ -1,0 +1,141 @@
+
+.banneri {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(228, 210, 254);
+    outline: 2px;
+    outline-color: black;
+    outline-style: solid;
+}
+h1 {
+    font-size: 24;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    position:relative;
+    top: 40px;
+    left: -290px;             
+}
+h2 {
+    font-size: 28;
+    font-weight: bold;
+    font-family: Consolas;
+    text-align: center;
+    position: relative;
+    top:-15px;
+}
+h3 {
+    font-size: 28;
+    font-weight: bold;
+    font-family: Consolas;
+    text-align: center;
+    position: relative;
+    top: -75px;
+    left: 330px;
+}
+h4 {
+    font-size: 28;
+    font-weight: 300;
+    font-family: Consolas;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+}
+p {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    text-align: center;
+}
+.kuva {
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: -96px;
+    height: 20%;
+    
+}
+.logo {
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: -100px;
+    left: -445px;
+    
+}
+.alasivu {
+    position: relative;
+    background-color: rgb(243, 234, 255);
+    height: 700px;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    
+}
+h5 {
+    font-size: 28;
+    font-weight: 300;
+    font-family: Consolas;
+    position: absolute;
+    text-align: left;
+}
+.tuote1 {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -60px;
+}
+.tuote2 {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: -60px;
+}
+.teksti1 {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    left: -260px;
+}
+.teksti2 {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+    right: -260px;
+}
+.tuote3 {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -60px;
+}
+.tuote4 {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: -60px;
+}
+.teksti3 {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    left: -260px;
+}
+.teksti4 {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+    right: -260px;
+}
