@@ -1,5 +1,7 @@
 
             .banneri {
+                display:flex;
+                justify-content: center;
                 height: 100px;
                 width: 100%;
                 background-color: rgb(228, 210, 254);
@@ -7,31 +9,49 @@
                 outline-color: black;
                 outline-style: solid;
             }
+            .logokuva {
+                display: grid;
+                position: relative;
+                margin-right: 10px;
+                
+            }
             h1 {
-                font-size: 24;
+                font-size: 28;
                 font-weight: bold;
-                font-family: Helvetica, sans-serif;
-                text-align: center;
-                position:relative;
-                top: 40px;
-                left: -290px;             
+                font-family: Consolas;
+                margin-right: 100px;
+                margin-top: 30px;
+
             }
-            h2 {
+            .etusivu:hover {color:rgb(255, 73, 103)}
+            .etusivu {
                 font-size: 28;
                 font-weight: bold;
                 font-family: Consolas;
                 text-align: center;
-                position: relative;
-                top:-15px;
+                color: black;
+                cursor: alias;
             }
-            h3 {
+            .tuotesivu:hover {color:rgb(255, 73, 103)}
+            .tuotesivu {
                 font-size: 28;
                 font-weight: bold;
                 font-family: Consolas;
                 text-align: center;
-                position: relative;
-                top: -75px;
-                left: 330px;
+                color: black;
+                cursor: alias;
+ 
+                
+            }
+            .yhteyssivu:hover {color:rgb(255, 73, 103)}
+            .yhteyssivu {
+                font-size: 28;
+                font-weight: bold;
+                font-family: Consolas;
+                color: black;
+                cursor: alias;
+                white-space: nowrap;
+                
             }
             h4 {
                 font-size: 28;
@@ -51,24 +71,17 @@
                 display: grid;
                 place-items: center;
                 position: relative;
-                top: -96px;
+                top: 2px;
                 height: 20%;
                 
             }
-            .logo {
-                display: grid;
-                place-items: center;
-                position: relative;
-                top: -100px;
-                left: -445px;
-                
-            }
+            
             .alasivu {
                 position: relative;
                 background-color: rgb(243, 234, 255);
                 height: 700px;
                 width: 100%;
-                top: 0px;
+                top: 100px;
                 text-align: center;
                 
             }
