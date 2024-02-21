@@ -1,5 +1,8 @@
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TILAUSMATKAT</title>
         <link rel="stylesheet" href="etusivu_style.css"
     </head>
     <body>
@@ -7,7 +10,8 @@
             <div class="banneri">
                 <h1>TILAUSMATKAT</h1> 
                 <h2>TUOTEKATALOGI</h2>
-                <h3>OTA YHTEYTTÄ</h3>
+                <h3 id="tekstilinkki" class="yhteyssivu">OTA YHTEYTTÄ</h3>
+                
             </div>
             <div class="logo">
                 <img src="logo1.jpg" alt="logo" class="logokuva" width="100" height="98">
@@ -31,6 +35,13 @@
                 <p class="teksti4">Teksti</p>
             </div>
         </main>
+        <script>
+            var tekstilinkki = document.getElementById("tekstilinkki")
+            tekstilinkki.addEventListener('click', function() {
+                console.log("Klikkasit linkkiä!!");
+                window.location.href="Yhteyssivu.html"
+            });
+        </script>
     </body>
 </html>
 
