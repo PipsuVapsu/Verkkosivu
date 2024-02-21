@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> b455df4ff29c44266058debb076644850705a28e
 .banneri {
+    display:flex;
+    justify-content: center;
     height: 100px;
     width: 100%;
     background-color: rgb(228, 210, 254);
@@ -10,31 +8,49 @@
     outline-color: black;
     outline-style: solid;
 }
+.logokuva {
+    display: grid;
+    position: relative;
+    margin-right: 10px;
+    
+}
 h1 {
-    font-size: 24;
+    font-size: 28;
     font-weight: bold;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    position:relative;
-    top: 40px;
-    left: -290px;             
+    font-family: Consolas;
+    margin-right: 100px;
+    margin-top: 30px;
+
 }
-h2 {
+.etusivu:hover {color:rgb(255, 73, 103)}
+.etusivu {
     font-size: 28;
     font-weight: bold;
     font-family: Consolas;
     text-align: center;
-    position: relative;
-    top:-15px;
+    color: black;
+    cursor: alias;
 }
-h3 {
+.tuotesivu:hover {color:rgb(255, 73, 103)}
+.tuotesivu {
     font-size: 28;
     font-weight: bold;
     font-family: Consolas;
     text-align: center;
-    position: relative;
-    top: -75px;
-    left: 330px;
+    color: black;
+    cursor: alias;
+
+    
+}
+.yhteyssivu:hover {color:rgb(255, 73, 103)}
+.yhteyssivu {
+    font-size: 28;
+    font-weight: bold;
+    font-family: Consolas;
+    color: black;
+    cursor: alias;
+    white-space: nowrap;
+    
 }
 h4 {
     font-size: 28;
@@ -141,8 +157,4 @@ h5 {
     position: relative;
     top: -5px;
     right: -260px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b455df4ff29c44266058debb076644850705a28e
