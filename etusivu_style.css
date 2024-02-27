@@ -154,3 +154,43 @@
                 right: -260px;
             }
        
+
+            @media (max-width: 600px) {
+
+                .banneri {
+                    display:flex;
+                    justify-content: center;
+                    width: 100%;
+                    background-color: rgb(228, 210, 254);
+                    outline: 2px;
+                    outline-color: black;
+                    outline-style: solid;
+                }
+                .logokuva {
+                    display: grid;
+                    position: relative;
+                    margin-right: 0%;
+                    max-height: 100%;
+                    max-width: 100%;
+                    margin-right: 150px;
+                }
+                h1 {
+                    font-size: 12;
+                    font-weight: bold;
+                    font-family: Consolas;
+                    margin-right: 0;
+                    margin-top: 0;
+                    max-height: 5%;
+                    max-width: 5%;
+    
+                }
+                .kuva {
+                    display: grid;
+                    place-items: center;
+                    position: relative;
+                    top: 0px;
+                    height: 5%;
+                    width: 10%;
+                    
+                }
+            }

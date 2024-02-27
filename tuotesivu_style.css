@@ -61,56 +61,85 @@ h4 {
     text-align: center;
     top: 100px;
 }
-p {
-    font-size: 20;
-    font-weight: 100;
-    font-family: Aptos;
-    text-align: center;
-    padding-right: auto;
-}
+
 .kuva {
     display: grid;
     place-items: center;
     position: relative;
     top: 2px;
-    height: 20%;
+    height: 20px;
+    width: 100%;
+    height: 260px;
     
 }
 
 .alasivu {
-    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(243, 234, 255);
-    height: 800px;
+    height: 2000px;
     width: 100%;
-    top: 100px;
-    text-align: center;
     
+    
+    
+    
+}
+p {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    text-align: center;
+}
+.tuote3 {
+    
+    
+    
+    
+}
+.tuote4 {
+    
+    
+    
+}
+.teksti3 {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    font-weight: bold;
+    
+    
+}
+.teksti4 {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    font-weight: bold;
+
+  
 }
 h5 {
     font-size: 28;
     font-weight: 300;
     font-family: Consolas;
     position: absolute;
-    text-align: left;
+    
 }
 .tuote1 {
-    display: inline-block;
-    position: relative;
-    top: 50px;
-    left: -60px;
+  
+   
 }
 .tuote2 {
-    display: inline-block;
-    position: relative;
-    top: 50px;
-    right: -60px;
+  
+   
 }
 .teksti1 {
     font-size: 20;
     font-weight: 100;
     font-family: Aptos;
     font-weight: bold;
-    position: relative;
+  
     top: 40px;
     left: -260px;
 }
@@ -119,37 +148,8 @@ h5 {
     font-weight: 100;
     font-family: Aptos;
     font-weight: bold;
-    position: relative;
+   
     top: -5px;
     right: -260px;
 }
-.tuote3 {
-    display: inline-block;
-    position: relative;
-    top: 50px;
-    left: -60px;
-}
-.tuote4 {
-    display: inline-block;
-    position: relative;
-    top: 50px;
-    right: -60px;
-}
-.teksti3 {
-    font-size: 20;
-    font-weight: 100;
-    font-family: Aptos;
-    font-weight: bold;
-    position: relative;
-    top: 40px;
-    left: -260px;
-}
-.teksti4 {
-    font-size: 20;
-    font-weight: 100;
-    font-family: Aptos;
-    font-weight: bold;
-    position: relative;
-    top: -5px;
-    right: -260px;
-}
+
