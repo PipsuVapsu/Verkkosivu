@@ -66,12 +66,13 @@
                 font-weight: 100;
                 font-family: Aptos;
                 text-align: center;
+                padding-right: auto;
             }
             .kuva {
                 display: grid;
                 place-items: center;
                 position: relative;
-                top: 2px;
+                top: 10px;
                 height: 20%;
                 
             }
@@ -79,7 +80,7 @@
             .alasivu {
                 position: relative;
                 background-color: rgb(243, 234, 255);
-                height: 700px;
+                height: 800px;
                 width: 100%;
                 top: 100px;
                 text-align: center;

@@ -1,3 +1,4 @@
+
 .banneri {
     display:flex;
     justify-content: center;
@@ -65,29 +66,23 @@ p {
     font-weight: 100;
     font-family: Aptos;
     text-align: center;
+    padding-right: auto;
 }
 .kuva {
     display: grid;
     place-items: center;
     position: relative;
-    top: -96px;
+    top: 2px;
     height: 20%;
     
 }
-.logo {
-    display: grid;
-    place-items: center;
-    position: relative;
-    top: -100px;
-    left: -445px;
-    
-}
+
 .alasivu {
     position: relative;
     background-color: rgb(243, 234, 255);
-    height: 700px;
+    height: 800px;
     width: 100%;
-    top: 0px;
+    top: 100px;
     text-align: center;
     
 }
