@@ -79,77 +79,67 @@ h4 {
     justify-content: center;
     align-items: center;
     background-color: rgb(243, 234, 255);
-    height: 2000px;
+    height: 2500px;
     width: 100%;
-    
-    
-    
-    
 }
+
 p {
     font-size: 20;
-    font-weight: 100;
-    font-family: Aptos;
+    font-weight: bold;
+    font-family: fantasy;
     text-align: center;
 }
 .tuote3 {
-    
-    
+    margin-top: 0px;
     
     
 }
 .tuote4 {
-    
+    margin-top: 80px;
     
     
 }
 .teksti3 {
-    font-size: 20;
-    font-weight: 100;
-    font-family: Aptos;
-    font-weight: bold;
+    font-size: 16;
+    font-weight: 500;
+    font-family: fantasy;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 0px;
     
     
 }
 .teksti4 {
-    font-size: 20;
-    font-weight: 100;
-    font-family: Aptos;
-    font-weight: bold;
+    font-size: 16;
+    font-weight: 500;
+    font-family: fantasy;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 0px; 
+}
 
-  
-}
-h5 {
-    font-size: 28;
-    font-weight: 300;
-    font-family: Consolas;
-    position: absolute;
-    
-}
 .tuote1 {
-  
+    margin-top: 80px;
    
 }
 .tuote2 {
-  
+    margin-top: 80px;
    
 }
 .teksti1 {
-    font-size: 20;
-    font-weight: 100;
-    font-family: Aptos;
-    font-weight: bold;
-  
-    top: 40px;
-    left: -260px;
+    font-size: 16;
+    font-weight: 500;
+    font-family: fantasy;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 0px; 
 }
 .teksti2 {
-    font-size: 20;
-    font-weight: 100;
-    font-family: Aptos;
-    font-weight: bold;
-   
-    top: -5px;
-    right: -260px;
+    font-size: 16;
+    font-weight: 500;
+    font-family: fantasy;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 0px;
 }
 
