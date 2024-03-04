@@ -52,6 +52,10 @@ h1 {
     white-space: nowrap;
     
 }
+.element {
+    width: 640px; 
+    height: 400px;
+}
 p {
     font-size: 20;
     font-weight: 100;
@@ -75,6 +79,7 @@ form {
     font-weight: 100;
     font-family: Aptos;
     text-align: center;
+    max-width: 100%;
     
 }
 input[type=text] {
@@ -94,4 +99,101 @@ input[type=submit] {
     image-resolution: 200x450;
     padding: 0px -100px;
     margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+
+    .banneri {
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 8%;
+        background-color: rgb(228, 210, 254);
+        outline: 2px;
+        outline-color: black;
+        outline-style: solid;
+    }
+    .logokuva {
+        display: grid;
+        position: relative;
+        margin-right: 0%;
+        max-height: 100%;
+        max-width: 100%;
+        margin-right: 310;
+        width:20%;
+        height:100%;
+    }
+    h1 {
+        font-size: 12;
+        font-weight: bold;
+        font-family: Consolas;
+      
+      
+
+    }
+    .etusivu:hover {color:rgb(255, 73, 103)}
+.etusivu {
+    font-size: 14;
+    font-weight: bold;
+    font-family: Consolas;
+    text-align: center;
+    color: black;
+    cursor: alias;
+    position: absolute;
+    margin-right: 140;
+    margin-top: 30;
+    
+}
+.tuotesivu:hover {color:rgb(255, 73, 103)}
+.tuotesivu {
+    font-size: 14;
+    font-weight: bold;
+    font-family: Consolas;
+    text-align: center;
+    color: black;
+    cursor: alias;
+    position: absolute;
+    margin-left: 155;
+    margin-top: 30;
+
+    
+}
+.yhteyssivu:hover {color:rgb(255, 73, 103)}
+.yhteyssivu {
+    font-size: 14;
+    font-weight: bold;
+    font-family: Consolas;
+    color: black;
+    cursor: alias;
+    word-wrap: break-word;
+    position: absolute;
+    margin-left: 370;
+    margin-top: 30;
+    
+}
+.kuva {
+    width: 95%;
+    height: 30%;
+    margin-left: 10;
+}
+.element {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    font-size: 16;
+    font-weight: 100;
+    font-family: Aptos;
+    text-align: center;
+    padding-right: auto;
+}
+form {
+    font-size: 20;
+    font-weight: 100;
+    font-family: Aptos;
+    text-align: center;
+    
+    
+}
 }
