@@ -25,18 +25,18 @@ h1 {
 }
 .etusivu:hover {color:rgb(255, 73, 103)}
 .etusivu {
-    font-size: 28;
-    font-weight: bold;
-    font-family: Consolas;
+    font-size: 26;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     color: black;
     cursor: alias;
 }
 .tuotesivu:hover {color:rgb(255, 73, 103)}
 .tuotesivu {
-    font-size: 28;
-    font-weight: bold;
-    font-family: Consolas;
+    font-size: 26;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     color: black;
     cursor: alias;
@@ -45,9 +45,9 @@ h1 {
 }
 .yhteyssivu:hover {color:rgb(255, 73, 103)}
 .yhteyssivu {
-    font-size: 28;
-    font-weight: bold;
-    font-family: Consolas;
+    font-size: 26;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
     color: black;
     cursor: alias;
     white-space: nowrap;
@@ -90,7 +90,7 @@ h4 {
 p {
     font-size: 20;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: "Roboto", sans-serif;
     text-align: center;
 }
 .tuote3 {
@@ -108,9 +108,9 @@ p {
     
 }
 .teksti3 {
-    font-size: 18;
-    font-weight: 500;
-    font-family: fantasy;
+    font-size: 20;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     max-width: 600px;
     margin-top: 0px;
@@ -118,9 +118,9 @@ p {
     
 }
 .teksti4 {
-    font-size: 18;
-    font-weight: 500;
-    font-family: fantasy;
+    font-size: 20;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     max-width: 600px;
     margin-top: 0px; 
@@ -139,17 +139,17 @@ p {
    
 }
 .teksti1 {
-    font-size: 18;
-    font-weight: 500;
-    font-family: fantasy;
+    font-size: 20;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     max-width: 600px;
     margin-top: 0px; 
 }
 .teksti2 {
-    font-size: 18;
-    font-weight: 500;
-    font-family: fantasy;
+    font-size: 20;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     max-width: 600px;
     margin-top: 0px;
@@ -186,45 +186,45 @@ p {
 
     }
     .etusivu:hover {color:rgb(255, 73, 103)}
-.etusivu {
-    font-size: 14;
-    font-weight: bold;
-    font-family: Consolas;
-    text-align: center;
-    color: black;
-    cursor: alias;
-    position: absolute;
-    margin-right: 140;
-    margin-top: 30;
+    .etusivu {
+        font-size: 12;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        color: black;
+        cursor: alias;
+        position: absolute;
+        margin-right: 155;
+        margin-top: 30;
+        
+    }
+    .tuotesivu:hover {color:rgb(255, 73, 103)}
+    .tuotesivu {
+        font-size: 12;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        color: black;
+        cursor: alias;
+        position: absolute;
+        margin-left: 155;
+        margin-top: 30;
     
-}
-.tuotesivu:hover {color:rgb(255, 73, 103)}
-.tuotesivu {
-    font-size: 14;
-    font-weight: bold;
-    font-family: Consolas;
-    text-align: center;
-    color: black;
-    cursor: alias;
-    position: absolute;
-    margin-left: 155;
-    margin-top: 30;
-
-    
-}
-.yhteyssivu:hover {color:rgb(255, 73, 103)}
-.yhteyssivu {
-    font-size: 14;
-    font-weight: bold;
-    font-family: Consolas;
-    color: black;
-    cursor: alias;
-    word-wrap: break-word;
-    position: absolute;
-    margin-left: 370;
-    margin-top: 30;
-    
-}
+        
+    }
+    .yhteyssivu:hover {color:rgb(255, 73, 103)}
+    .yhteyssivu {
+        font-size: 12;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        color: black;
+        cursor: alias;
+        word-wrap: break-word;
+        position: absolute;
+        margin-left: 390;
+        margin-top: 30;
+        
+    }
 h4 {
     font-size: 20;
     font-weight: 300;
@@ -262,7 +262,7 @@ h4 {
 p {
     font-size: 20;
     font-weight: 600;
-    font-family: Aptos;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     padding-right: auto;
 }
@@ -282,7 +282,7 @@ p {
 .teksti3 {
     font-size: 16;
     font-weight: 500;
-    font-family: fantasy;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     max-width: 600px;
     margin-top: 0px;
@@ -294,7 +294,7 @@ p {
 .teksti4 {
     font-size: 16;
     font-weight: 500;
-    font-family: fantasy;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     max-width: 600px;
     margin-top: 0px; 
@@ -317,7 +317,7 @@ p {
 .teksti1 {
     font-size: 16;
     font-weight: 500;
-    font-family: fantasy;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     max-width: 600px;
     margin-top: 0px; 
@@ -327,7 +327,7 @@ p {
 .teksti2 {
     font-size: 16;
     font-weight: 500;
-    font-family: fantasy;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     max-width: 600px;
     margin-top: 0px;
