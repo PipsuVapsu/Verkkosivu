@@ -141,7 +141,7 @@ input[type=submit] {
     color: black;
     cursor: alias;
     position: absolute;
-    margin-right: 155;
+    margin-right: 140;
     margin-top: 30;
     
 }
@@ -168,7 +168,7 @@ input[type=submit] {
     cursor: alias;
     word-wrap: break-word;
     position: absolute;
-    margin-left: 390;
+    margin-left: 370;
     margin-top: 30;
     
 }
@@ -187,6 +187,10 @@ h4 {
 h5 {
     font-family: "Roboto", sans-serif;
 }
+.bottom {
+    height: 200px;
+    width: 100%;
+}
 p {
     font-size: 16;
     font-weight: 100;
@@ -202,6 +206,7 @@ form {
 }
 input[type=text] {
     height: 200;
+    width: 350;
     text-align: left;
     padding: 10px 5px 220px 5px;
     font-size: 14;
