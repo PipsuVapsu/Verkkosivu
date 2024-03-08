@@ -200,4 +200,14 @@ form {
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
+input[type=text] {
+    height: 200;
+    text-align: left;
+    padding: 10px 5px 220px 5px;
+    font-size: 14;
+}
+input[type=submit] {
+    height: 30;
+    font-family: "Roboto", sans-serif;
+}
 }
