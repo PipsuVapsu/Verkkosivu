@@ -1,326 +1,323 @@
+.banneri {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(228, 210, 254);
+  outline: 2px;
+  outline-color: black;
+  outline-style: solid;
+}
+.logokuva {
+  display: grid;
+  position: relative;
+  margin-right: 10px;
+  width: 100px;
+  height: 98px;
+}
+h1 {
+  font-size: 28;
+  font-weight: bold;
+  font-family: Consolas;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+.etusivu:hover {
+  color: rgb(255, 73, 103);
+}
+.etusivu {
+  font-size: 26;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+  cursor: alias;
+}
+.tuotesivu:hover {
+  color: rgb(255, 73, 103);
+}
+.tuotesivu {
+  font-size: 26;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+  cursor: alias;
+}
+.yhteyssivu:hover {
+  color: rgb(255, 73, 103);
+}
+.yhteyssivu {
+  font-size: 26;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  cursor: alias;
+  white-space: nowrap;
+}
 
-            .banneri {
-                display:flex;
-                justify-content: center;
-                height: 100px;
-                width: 100%;
-                background-color: rgb(228, 210, 254);
-                outline: 2px;
-                outline-color: black;
-                outline-style: solid;
-            }
-            .logokuva {
-                display: grid;
-                position: relative;
-                margin-right: 10px;
-                width:100px;
-                height:98px;
-                
-            }
-            h1 {
-                font-size: 28;
-                font-weight: bold;
-                font-family: Consolas;
-                margin-right: 100px;
-                margin-top: 30px;
+p {
+  font-size: 20;
+  font-weight: 100;
+  font-family: Aptos;
+  text-align: center;
+  padding-right: auto;
+}
+.kuva {
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 10px;
+  height: 20%;
+}
+.bannerimage {
+  width: 1000px;
+  height: 280px;
+}
 
-            }
-            .etusivu:hover {color:rgb(255, 73, 103)}
-            .etusivu {
-                font-size: 26;
-                font-weight: 600;
-                font-family: "Montserrat", sans-serif;
-                text-align: center;
-                color: black;
-                cursor: alias;
-            }
-            .tuotesivu:hover {color:rgb(255, 73, 103)}
-            .tuotesivu {
-                font-size: 26;
-                font-weight: 600;
-                font-family: "Montserrat", sans-serif;
-                text-align: center;
-                color: black;
-                cursor: alias;
- 
-                
-            }
-            .yhteyssivu:hover {color:rgb(255, 73, 103)}
-            .yhteyssivu {
-                font-size: 26;
-                font-weight: 600;
-                font-family: "Montserrat", sans-serif;
-                color: black;
-                cursor: alias;
-                white-space: nowrap;
-                
-            }
-   
-            p {
-                font-size: 20;
-                font-weight: 100;
-                font-family: Aptos;
-                text-align: center;
-                padding-right: auto;
-            }
-            .kuva {
-                display: grid;
-                place-items: center;
-                position: relative;
-                top: 10px;
-                height: 20%;
-                
-            }
-            .bannerimage {
-                width:1000px;
-                height: 280px;
-            }
-            
-            .alasivu {
-                position: relative;
-                background-color: rgb(243, 234, 255);
-                height: 800px;
-                width: 100%;
-                top: 100px;
-                text-align: center;
-                
-            }
-            .tuote1 {
-                display: inline-block;
-                position: relative;
-                top: 50px;
-                left: -60px;
-                width: 440px; 
-                height: 260px;
-            }
-            .tuote2 {
-                display: inline-block;
-                position: relative;
-                top: 50px;
-                right: -60px;
-                width: 440px; 
-                height: 260px;
-            }
-            .teksti1 {
-                font-size: 20;
-                font-weight: 400;
-                font-family: "Roboto", sans-serif;
-                font-weight: bold;
-                position: relative;
-                top: 40px;
-                left: -280px;
-            }
-            .teksti2 {
-                font-size: 20;
-                font-weight: 100;
-                font-family: "Roboto", sans-serif;
-                font-weight: bold;
-                position: relative;
-                top: -5px;
-                right: -280px;
-            }
-            .tuote3 {
-                display: inline-block;
-                position: relative;
-                top: 50px;
-                left: -60px;
-                width: 440px; 
-                height: 260px;
-            }
-            .tuote4 {
-                display: inline-block;
-                position: relative;
-                top: 50px;
-                right: -60px;
-                width: 440px; 
-                height: 260px;
-            }
-            .teksti3 {
-                font-size: 20;
-                font-weight: 400;
-                font-family: "Roboto", sans-serif;
-                font-weight: bold;
-                position: relative;
-                top: 40px;
-                left: -280px;
-            }
-            .teksti4 {
-                font-size: 20;
-                font-weight: 400;
-                font-family: "Roboto", sans-serif;
-                font-weight: bold;
-                position: relative;
-                top: -5px;
-                right: -280px;
-            }
-       
+.alasivu {
+  position: relative;
+  background-color: rgb(243, 234, 255);
+  height: 800px;
+  width: 100%;
+  top: 100px;
+  text-align: center;
+}
+.tuote1 {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: -60px;
+  width: 440px;
+  height: 260px;
+}
+.tuote2 {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  right: -60px;
+  width: 440px;
+  height: 260px;
+}
+.teksti1 {
+  font-size: 20;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 40px;
+  left: -280px;
+}
+.teksti2 {
+  font-size: 20;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: -5px;
+  right: -280px;
+}
+.tuote3 {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: -60px;
+  width: 440px;
+  height: 260px;
+}
+.tuote4 {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  right: -60px;
+  width: 440px;
+  height: 260px;
+}
+.teksti3 {
+  font-size: 20;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 40px;
+  left: -280px;
+}
+.teksti4 {
+  font-size: 20;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: -5px;
+  right: -280px;
+}
 
-            @media (max-width: 600px) {
+@media (max-width: 600px) {
+  .banneri {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 8%;
+    background-color: rgb(228, 210, 254);
+    outline: 2px;
+    outline-color: black;
+    outline-style: solid;
+  }
+  .logokuva {
+    display: grid;
+    position: relative;
+    margin-right: 0%;
+    max-height: 100%;
+    max-width: 100%;
+    margin-right: 310;
+    width: 18%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 12;
+    font-weight: bold;
+    font-family: Consolas;
+  }
+  .etusivu:hover {
+    color: rgb(255, 73, 103);
+  }
+  .etusivu {
+    font-size: 12;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: black;
+    cursor: alias;
+    position: absolute;
+    margin-right: 150;
+    margin-top: 30;
+  }
+  .tuotesivu:hover {
+    color: rgb(255, 73, 103);
+  }
+  .tuotesivu {
+    font-size: 12;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: black;
+    cursor: alias;
+    position: absolute;
+    margin-left: 150;
+    margin-top: 30;
+  }
+  .yhteyssivu:hover {
+    color: rgb(255, 73, 103);
+  }
+  .yhteyssivu {
+    font-size: 12;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    cursor: alias;
+    word-wrap: break-word;
+    position: absolute;
+    margin-left: 370;
+    margin-top: 30;
+  }
 
-                .banneri {
-                    display:flex;
-                    justify-content: center;
-                    width: 100%;
-                    height: 8%;
-                    background-color: rgb(228, 210, 254);
-                    outline: 2px;
-                    outline-color: black;
-                    outline-style: solid;
-                }
-                .logokuva {
-                    display: grid;
-                    position: relative;
-                    margin-right: 0%;
-                    max-height: 100%;
-                    max-width: 100%;
-                    margin-right: 310;
-                    width:18%;
-                    height:100%;
-                }
-                h1 {
-                    font-size: 12;
-                    font-weight: bold;
-                    font-family: Consolas;
-                  
-                  
-    
-                }
-                .etusivu:hover {color:rgb(255, 73, 103)}
-            .etusivu {
-                font-size: 12;
-                font-weight: 600;
-                font-family: "Montserrat", sans-serif;
-                text-align: center;
-                color: black;
-                cursor: alias;
-                position: absolute;
-                margin-right: 150;
-                margin-top: 30;
-                
-            }
-            .tuotesivu:hover {color:rgb(255, 73, 103)}
-            .tuotesivu {
-                font-size: 12;
-                font-weight: 600;
-                font-family: "Montserrat", sans-serif;
-                text-align: center;
-                color: black;
-                cursor: alias;
-                position: absolute;
-                margin-left: 150;
-                margin-top: 30;
-            
-                
-            }
-            .yhteyssivu:hover {color:rgb(255, 73, 103)}
-            .yhteyssivu {
-                font-size: 12;
-                font-weight: 600;
-                font-family: "Montserrat", sans-serif;
-                color: black;
-                cursor: alias;
-                word-wrap: break-word;
-                position: absolute;
-                margin-left: 370;
-                margin-top: 30;
-                
-            }
-   
-            p {
-                font-size: 16;
-                font-weight: 100;
-                font-family: Aptos;
-                text-align: center;
-                padding-right: auto;
-            }
-                .kuva {
-                    display: grid;
-                    place-items: center;
-                    position: relative;
-                    top: 5px;
-                    height: 5%;
-                    width: 100%;
-                    
-                }
-                .bannerimage {
-                    width:100%;
-                    height: 130px;
-            }
-            .alasivu {
-                position: relative;
-                background-color: rgb(243, 234, 255);
-                height: 70%;
-                width: 100%;
-                top: 100px;
-                text-align: center;
-                
-            }
-            .tuote1 {
-                display: inline-block;
-                position: relative;
-                top: 30px;
-                left: -20px;
-                width: 150px; 
-                height: 90px;
-            }
-            .tuote2 {
-                display: inline-block;
-                position: relative;
-                top: 30px;
-                left: 15px;
-                width: 150px; 
-                height: 90px;
-            }
-            .teksti1 {
-                font-size: 10;
-                font-weight: 100;
-                font-family: Aptos;
-                font-weight: bold;
-                position: relative;
-                top: 30px;
-                left: -100px;
-            }
-            .teksti2 {
-                font-size: 10;
-                font-weight: 100;
-                font-family: Aptos;
-                font-weight: bold;
-                position: relative;
-                top: 10px;
-                left: 95px;
-            }
-            .tuote3 {
-                display: inline-block;
-                position: relative;
-                top: 30px;
-                left: -20px;
-                width: 150px; 
-                height: 90px;
-            }
-            .tuote4 {
-                display: inline-block;
-                position: relative;
-                top: 30px;
-                left: 15px;
-                width: 150px; 
-                height: 90px;
-            }
-            .teksti3 {
-                font-size: 10;
-                font-weight: 100;
-                font-family: Aptos;
-                font-weight: bold;
-                position: relative;
-                top: 30px;
-                left: -100px;
-            }
-            .teksti4 {
-                font-size: 10;
-                font-weight: 100;
-                font-family: Aptos;
-                font-weight: bold;
-                position: relative;
-                top: 10px;
-                left: 95px;
-            }
-            }
+  p {
+    font-size: 10;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding-right: auto;
+  }
+  .kuva {
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 5px;
+    height: 5%;
+    width: 100%;
+  }
+  .bannerimage {
+    width: 100%;
+    height: 130px;
+  }
+  .alasivu {
+    position: relative;
+    background-color: rgb(243, 234, 255);
+    height: 70%;
+    width: 100%;
+    top: 100px;
+    text-align: center;
+  }
+  .tuote1 {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: -20px;
+    width: 150px;
+    height: 90px;
+  }
+  .tuote2 {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    width: 150px;
+    height: 90px;
+  }
+  .teksti1 {
+    font-size: 10;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position: relative;
+    max-width: 190px;
+    top: 30px;
+    left: -5px;
+  }
+  .teksti2 {
+    font-size: 10;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position: relative;
+    max-width: 190px;
+    top: 10px;
+    left: 185px;
+  }
+  .tuote3 {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: -20px;
+    width: 150px;
+    height: 90px;
+  }
+  .tuote4 {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    width: 150px;
+    height: 90px;
+  }
+  .teksti3 {
+    font-size: 10;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position: relative;
+    max-width: 190px;
+    top: 30px;
+    left: -5px;
+  }
+  .teksti4 {
+    font-size: 10;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position: relative;
+    max-width: 190px;
+    top: 10px;
+    left: 185px;
+  }
+}
