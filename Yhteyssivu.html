@@ -9,6 +9,7 @@
     </head>
     <body>
         <main>
+            <div class="kaikki">
             <div class="banneri">
                 <a href="index.html">
                     <img src="elements/logo1.jpg" alt="logo" class="logokuva" width="100" height="98">
@@ -24,19 +25,25 @@
             </div>
 
             <div class="bottom">
-                <h5>Ota meihin yhteyttä</p>
-                <p>Puhelin: 044 222 3355</p>
-                <p>Palvelemme toimistoaikoina klo 08-16</p>
-                <p>Sähköposti: lomamatkat@email.com</p>
-                <h4>Yhteydenottolomake</h4>
-                <form>
-                    <label for="sposti">Sähköposti:</label><br>
-                    <input type="email" id="sposti" name="sposti" size="30"><br><br>
-                    <label for="teksti">Viesti:</label><br>
-                    <input type="text" id="teksti" name="teksti" size="70"><br>
-                    <br>
-                    <input type="submit" value="Lähetä">
-                </form>
+                <div>
+                    <h5>Ota meihin yhteyttä</p>
+                    <p>Puhelin: 044 222 3355</p>
+                    <p>Palvelemme toimistoaikoina klo 08-16</p>
+                    <p>Sähköposti: lomamatkat@email.com</p>
+                    <h4>Yhteydenottolomake</h4>
+                </div>
+                <div>
+                    <form>
+                        <label for="sposti">Sähköposti:</label><br>
+                        <input type="email" id="sposti" name="sposti" size="30"><br><br>
+                        <label for="teksti">Viesti:</label><br>
+                        <input type="text" id="teksti" name="teksti" size="70"><br>
+                        <br>
+                        <input type="submit" value="Lähetä">
+                    </form>
+                </div>
+            </div>
+        </div>
             </main>
             <script>
                 var tekstilinkki = document.getElementById("tekstilinkki")
@@ -53,6 +60,6 @@
                 });
                
             </script>
-        </div> 
+     
     </body>
 </html>
