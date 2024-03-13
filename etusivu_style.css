@@ -26,7 +26,7 @@ h1 {
   color: rgb(255, 73, 103);
 }
 .etusivu {
-  font-size: 26;
+  font-size: 26px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -61,7 +61,7 @@ p {
   font-weight: 100;
   font-family: Aptos;
   text-align: center;
-  padding-right: auto;
+  padding: auto;
 }
 .kuva {
   display: grid;
@@ -226,7 +226,7 @@ p {
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     text-align: center;
-    padding-right: auto;
+    padding: auto;
   }
   .kuva {
     display: grid;
