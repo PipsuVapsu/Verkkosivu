@@ -61,7 +61,7 @@ p {
   font-weight: 100;
   font-family: Aptos;
   text-align: center;
-  padding: 0px auto;
+  padding: 0px;
 }
 .kuva {
   display: grid;
@@ -226,7 +226,7 @@ p {
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     text-align: center;
-    padding: 0px auto;
+    padding: 0px;
   }
   .kuva {
     display: grid;
