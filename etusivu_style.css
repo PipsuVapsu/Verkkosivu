@@ -61,7 +61,7 @@ p {
   font-weight: 100;
   font-family: Aptos;
   text-align: center;
-  padding: auto;
+  padding: 0px auto;
 }
 .kuva {
   display: grid;
@@ -80,7 +80,7 @@ p {
   background-color: rgb(243, 234, 255);
   height: 800px;
   width: 100%;
-  top: 100px;
+  top: 50px;
   text-align: center;
 }
 .tuote1 {
@@ -169,7 +169,7 @@ p {
     margin-right: 0%;
     max-height: 100%;
     max-width: 100%;
-    margin-right: 310;
+    margin-right: 310px;
     width: 18%;
     height: 100%;
   }
@@ -226,7 +226,7 @@ p {
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     text-align: center;
-    padding: auto;
+    padding: 0px auto;
   }
   .kuva {
     display: grid;
