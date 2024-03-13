@@ -148,8 +148,8 @@ input[type="submit"] {
     color: black;
     cursor: alias;
     position: absolute;
-    margin-right: 150;
-    margin-top: 30;
+    margin-right: 150px;
+    margin-top: 30px;
   }
   .tuotesivu:hover {
     color: rgb(255, 73, 103);
@@ -162,8 +162,8 @@ input[type="submit"] {
     color: black;
     cursor: alias;
     position: absolute;
-    margin-left: 150;
-    margin-top: 30;
+    margin-left: 150px;
+    margin-top: 30px;
   }
   .yhteyssivu:hover {
     color: rgb(255, 73, 103);
@@ -176,14 +176,14 @@ input[type="submit"] {
     cursor: alias;
     word-wrap: break-word;
     position: absolute;
-    margin-left: 370;
-    margin-top: 30;
+    margin-left: 370px;
+    margin-top: 30px;
   }
   .element {
     width: 95%;
     height: 35%;
-    margin-top: 10;
-    margin-left: 10;
+    margin-top: 10px;
+    margin-left: 10px;
     display: block;
   }
   h4 {
@@ -217,14 +217,14 @@ input[type="submit"] {
     text-align: center;
   }
   input[type="text"] {
-    height: 200;
-    width: 350;
+    height: 180;
+    width: 90%;
     text-align: left;
-    padding: 10px 5px 220px 5px;
     font-size: 14px;
   }
   input[type="submit"] {
     height: 30;
+    margin-bottom: 50px;
     font-family: "Roboto", sans-serif;
   }
 }
