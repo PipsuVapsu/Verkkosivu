@@ -1,55 +1,58 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tilausmatkat</title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="etusivu_style.css"   
-    </head>
-    <body>
-        <main>
-            <div class="banneri">
-                <a href="index.html">
-                    <img src="elements/logo1.jpg" alt="logo" class="logokuva">
-                </a>
-                <h1 id="etusivulle" class="etusivu">ETUSIVULLE</h1> 
-                <h1 id="tuotelinkki" class="tuotesivu">TUOTEKATALOGI</h1>
-                <h1 id="tekstilinkki" class="yhteyssivu">OTA YHTEYTTÄ</h1>
-            </div>
-           
-            <div class="kuva">
-                <img src="elements/banner3.png" class="bannerimage" alt="banner">
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tilausmatkat</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="etusivu_style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="banneri">
+        <a href="index.html">
+          <img src="elements/logo1.jpg" alt="logo" class="logokuva" />
+        </a>
+        <h1 id="etusivulle" class="etusivu">ETUSIVULLE</h1>
+        <h1 id="tuotelinkki" class="tuotesivu">TUOTEKATALOGI</h1>
+        <h1 id="tekstilinkki" class="yhteyssivu">OTA YHTEYTTÄ</h1>
+      </div>
 
-            </div> 
-            <div class="alasivu">
-                <img src="elements/malaga.png" alt="malaga" class="tuote1">
-                <img src="elements/alps2.png" alt="alpit" class="tuote2">
-                <p class="teksti1">Rantaloma Espanjan lämmössä</p>
-                <p class="teksti2">Laskettelua Alppien lumihuipuissa</p>
-                <img src="elements/hanami.png" alt="hanami" class="tuote3">
-                <img src="elements/newyork.png" alt="newyork" class="tuote4">
-                <p class="teksti3">Kulttuuriloma Japanissa</p>
-                <p class="teksti4">Kaupunkiloma New Yorkissa</p>
-            </div>
-        </main>
-        <script>
-            var tekstilinkki = document.getElementById("tekstilinkki")
-            tekstilinkki.addEventListener('click', function() {
-                console.log("Klikkasit linkkiä!!");
-                window.location.href="Yhteyssivu.html"
-            });
-            var tuotelinkki = document.getElementById("tuotelinkki")
-            tuotelinkki.addEventListener('click', function() {
-                window.location.href="tuotesivu.html"
-            });
-            var etusivulle = document.getElementById("etusivulle")
-            etusivulle.addEventListener('click', function() {
-                window.location.href="index.html"
-            });
-           
-        </script>
-    </body>
+      <div class="kuva">
+        <img src="elements/banner3.png" class="bannerimage" alt="banner" />
+      </div>
+
+      <div class="alasivu">
+        <img src="elements/malaga.png" alt="malaga" class="tuote1" />
+        <img src="elements/alps2.png" alt="alpit" class="tuote2" />
+        <p class="teksti1">Rantaloma Espanjan lämmössä</p>
+        <p class="teksti2">Laskettelua Alppien lumihuipuissa</p>
+        <img src="elements/hanami.png" alt="hanami" class="tuote3" />
+        <img src="elements/newyork.png" alt="newyork" class="tuote4" />
+        <p class="teksti3">Kulttuuriloma Japanissa</p>
+        <p class="teksti4">Kaupunkiloma New Yorkissa</p>
+      </div>
+    </main>
+    <script>
+      var tekstilinkki = document.getElementById("tekstilinkki");
+      tekstilinkki.addEventListener("click", function () {
+        console.log("Klikkasit linkkiä!!");
+        window.location.href = "Yhteyssivu.html";
+      });
+      var tuotelinkki = document.getElementById("tuotelinkki");
+      tuotelinkki.addEventListener("click", function () {
+        window.location.href = "tuotesivu.html";
+      });
+      var etusivulle = document.getElementById("etusivulle");
+      etusivulle.addEventListener("click", function () {
+        window.location.href = "index.html";
+      });
+    </script>
+  </body>
 </html>
-

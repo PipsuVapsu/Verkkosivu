@@ -16,7 +16,7 @@
   height: 98px;
 }
 h1 {
-  font-size: 28;
+  font-size: 28px;
   font-weight: bold;
   font-family: Consolas;
   margin-right: 100px;
@@ -37,7 +37,7 @@ h1 {
   color: rgb(255, 73, 103);
 }
 .tuotesivu {
-  font-size: 26;
+  font-size: 26px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -48,7 +48,7 @@ h1 {
   color: rgb(255, 73, 103);
 }
 .yhteyssivu {
-  font-size: 26;
+  font-size: 26px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   color: black;
@@ -57,7 +57,7 @@ h1 {
 }
 
 p {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 100;
   font-family: Aptos;
   text-align: center;
@@ -100,7 +100,7 @@ p {
   height: 260px;
 }
 .teksti1 {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -109,7 +109,7 @@ p {
   left: -280px;
 }
 .teksti2 {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 100;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -134,7 +134,7 @@ p {
   height: 260px;
 }
 .teksti3 {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -143,7 +143,7 @@ p {
   left: -280px;
 }
 .teksti4 {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -174,7 +174,7 @@ p {
     height: 100%;
   }
   h1 {
-    font-size: 12;
+    font-size: 12px;
     font-weight: bold;
     font-family: Consolas;
   }
@@ -182,7 +182,7 @@ p {
     color: rgb(255, 73, 103);
   }
   .etusivu {
-    font-size: 12;
+    font-size: 12px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -196,7 +196,7 @@ p {
     color: rgb(255, 73, 103);
   }
   .tuotesivu {
-    font-size: 12;
+    font-size: 12px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -210,7 +210,7 @@ p {
     color: rgb(255, 73, 103);
   }
   .yhteyssivu {
-    font-size: 12;
+    font-size: 12px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     color: black;
@@ -222,7 +222,7 @@ p {
   }
 
   p {
-    font-size: 10;
+    font-size: 10px;
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -265,7 +265,7 @@ p {
     height: 90px;
   }
   .teksti1 {
-    font-size: 10;
+    font-size: 10px;
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -275,7 +275,7 @@ p {
     left: -5px;
   }
   .teksti2 {
-    font-size: 10;
+    font-size: 10px;
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -301,7 +301,7 @@ p {
     height: 90px;
   }
   .teksti3 {
-    font-size: 10;
+    font-size: 10px;
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -311,7 +311,7 @@ p {
     left: -5px;
   }
   .teksti4 {
-    font-size: 10;
+    font-size: 10px;
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     font-weight: bold;

@@ -14,7 +14,7 @@
   margin-right: 10px;
 }
 h1 {
-  font-size: 28;
+  font-size: 28px;
   font-weight: bold;
   font-family: Consolas;
   margin-right: 100px;
@@ -24,7 +24,7 @@ h1 {
   color: rgb(255, 73, 103);
 }
 .etusivu {
-  font-size: 26;
+  font-size: 26px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -35,7 +35,7 @@ h1 {
   color: rgb(255, 73, 103);
 }
 .tuotesivu {
-  font-size: 26;
+  font-size: 26px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -46,7 +46,7 @@ h1 {
   color: rgb(255, 73, 103);
 }
 .yhteyssivu {
-  font-size: 26;
+  font-size: 26px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   color: black;
@@ -67,25 +67,25 @@ h1 {
   margin-right: auto;
 }
 p {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 100;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
 h4 {
-  font-size: 20;
+  font-size: 20px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
 h5 {
-  font-size: 30;
+  font-size: 30px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
 form {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 100;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -133,7 +133,7 @@ input[type="submit"] {
     height: 100%;
   }
   h1 {
-    font-size: 12;
+    font-size: 12px;
     font-weight: bold;
     font-family: Consolas;
   }
@@ -141,7 +141,7 @@ input[type="submit"] {
     color: rgb(255, 73, 103);
   }
   .etusivu {
-    font-size: 12;
+    font-size: 12px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -155,7 +155,7 @@ input[type="submit"] {
     color: rgb(255, 73, 103);
   }
   .tuotesivu {
-    font-size: 12;
+    font-size: 12px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -169,7 +169,7 @@ input[type="submit"] {
     color: rgb(255, 73, 103);
   }
   .yhteyssivu {
-    font-size: 12;
+    font-size: 12px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     color: black;
@@ -203,7 +203,7 @@ input[type="submit"] {
     display: block;
   }
   p {
-    font-size: 16;
+    font-size: 16px;
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -211,7 +211,7 @@ input[type="submit"] {
     position: relative;
   }
   form {
-    font-size: 20;
+    font-size: 20px;
     font-weight: 100;
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -221,7 +221,7 @@ input[type="submit"] {
     width: 350;
     text-align: left;
     padding: 10px 5px 220px 5px;
-    font-size: 14;
+    font-size: 14px;
   }
   input[type="submit"] {
     height: 30;
